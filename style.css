@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background: rgba(0, 0, 0, 0.5) url(./images/digital-art-beautiful-mountains.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    object-fit: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-blend-mode: darken;
+}
+.card{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 15px;
+}
+.card:hover{
+    cursor: pointer;
+    box-shadow: 8px 8px 20px #25252570;
+}
+.img{
+    object-fit: cover;
+    background-position: center;
+    background-size: cover;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.profile{
+    margin-top: -50px;
+    border-radius: 200px;
+    border: solid 3px #fff;
+}
+.name{
+    font-weight: bold;
+    color: rgb(49, 49, 49);
+    padding-top: 20px;
+}
+span{
+    font-weight: 200;
+    padding-left: 10px;
+}
+.country{
+    color: rgb(49, 49, 49);
+    padding-top: 10px;
+    font-size: 15px;
+    padding-bottom: 20px;
+}
+hr{
+    margin-bottom: 20px;
+    width: 330px;
+    border: solid 1px #e2e2e2;
+}
+.likes{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    gap: 50px;
+}
+.amount{
+    font-weight: bold;
+    font-size: 20px;
+}
+.context{
+    font-size: 10px;
+    letter-spacing: 2px;
+    color: #7a7a7a;
+}
